@@ -2,13 +2,15 @@
   "name": "klportfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://your-username.github.io/your-repo-name",
+  "homepage": "https://khisalbrn.github.io/KhisaPortfolio",
   
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@ionic/react": "^8.5.7",

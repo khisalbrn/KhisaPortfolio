@@ -8,7 +8,7 @@ import './theme/variables.css';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/KhisaPortfolio/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />

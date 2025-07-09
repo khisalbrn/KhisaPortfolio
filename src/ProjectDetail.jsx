@@ -13,6 +13,7 @@ import ISpyThumb from './assets/ISpythumbnail.png'
 import RoverThumb from './assets/RoverThumb.png'
 import AiMirrorLogo from './assets/AIMirrorDetail.png'
 import Nespressothreed from './assets/NespressoPodHolderV1.png'
+import AIMirrorReport from './assets/AIMirrorInterimReport.pdf'
 
 const sampleProjects = [
   {
@@ -80,7 +81,7 @@ const sampleProjects = [
     status: 'In Progress',
     description: "This capstone project centers on the creation of a smart mirror that combines everyday utility with artificial intelligence–driven fashion advice. Developed in collaboration with my long-time teammate Boyd Paxton—my partner for the past three semesters—this project builds on our strong working dynamic. As we like to say: you don’t change a winning team. The smart mirror is designed to display essential daily information, such as the current weather, personalized to-do lists, and other widgets tailored to the user’s lifestyle. One of its most innovative features is an AI-powered fashion assistant. Using a camera and Roboflow’s image recognition tools, the mirror identifies what the user is wearing and offers fashion suggestions, including color coordination and outfit recommendations based on style trends or saved preferences. The idea for this fashion assistant came from a relatable moment in my college life. My roommates, Lily Zimmerman and Vanessa Knight, often ask me whether their outfits are good enough to go out—a daily ritual familiar to just about every college girl and her friends. One evening, after we had our usual back-and-forth over outfits, they jokingly said, “What are we going to do once you’re graduated?” That question stuck with me, and that’s when the idea clicked: why not build something that could offer the same second opinion, powered by AI? In addition to the software side, this project includes a significant hardware component. We’re designing and building a custom wooden frame that houses a display behind a two-way mirror, creating the illusion of a traditional mirror while overlaying interactive, digital content. The combination of practical UI features, AI integration, and hands-on hardware work makes this project a comprehensive showcase of both engineering and user-centered design.",
     thumbnail: AiMirrorLogo,
-    report:{},
+    report:AIMirrorReport,
     
   },
   {
