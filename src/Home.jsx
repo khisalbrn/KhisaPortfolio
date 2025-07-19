@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import KhisaResume from "./assets/Lebrun_Khisa_Lee_Resume_2025.pdf";
 import KhisaCover from './assets/Cover_Letter.pdf';
 import pp from './assets/ProfilePic.png'
+import pp2 from './assets/LastFirstDayofSchool.jpg'
+
 const Home = () => {
     const navigate = useNavigate();
   return (
@@ -49,25 +51,38 @@ const Home = () => {
         <p>Click Here to see the project I have accomplished as well as the ones in progress</p>
       </section>
 
+       {/* Blog and Updates */}
+      <section
+        onClick={() => navigate('/blog')}
+        className=" w-full bg-white shadow-lg rounded-2xl p-8 mb-8 cursor-pointer hover:bg-gray-100"
+      >
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Blog and Project Updates</h2>
+        <p>Click here to see weekly updates on my projects</p>
+      </section>
+
       {/* Background Story */}
       <section className=" w-full bg-white shadow-lg rounded-2xl p-8 mb-8">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">My Story</h2>
         <p className="text-gray-600 text-md leading-relaxed">
-          Hi, I’m Khisa. I’ve always been passionate about the environment, and when it came
-          time to choose my major, I initially considered environmental engineering. But as 
-          I learned more about the impact of global energy consumption on the environment, 
-          I realized I wanted to be part of the solution from the energy side; so I chose 
+        Hi, I am Khisa. I have always been passionate about the environment, and when it came 
+          time to choose my major, I initially considered environmental engineering. But as I 
+          learned more about the impact of global energy consumption on the environment, 
+          I realized I wanted to be part of the solution from the energy side, so I chose 
           electrical engineering. That decision was also encouraged by a high school teacher 
           who once told me I had the mind to really see circuits, and that stuck with me.
           <br></br>
-          Almost four years later, I’ve come to love so much more about my major than just its
+          Almost four years later, I have come to love so much more about my major than just its 
           environmental applications. Much like my habit of picking up a new hobby every month, 
-          each semester in college has brought new interests and skills; from robotics and drones to 
-          cross-platform development, network analysis, power systems, and renewable energy, especially solar.
+          each semester in college has brought new interests and skills, ranging from robotics and 
+          power systems to cross-platform development and renewable energy.
           <br></br>
-          What excites me most now is the opportunity to combine my technical knowledge with the soft skills 
-          I’ve developed throughout my life; like adaptability, curiosity, and a love for problem-solving 
-          and apply them to real-world challenges.
+          But what truly drives my work today is the intersection of AI and drones. I now spend much of 
+          my time designing intelligent systems that can detect, navigate, or analyze in real-time, 
+          whether it's a drone locating hidden metallic objects or a smart mirror offering 
+          AI-powered fashion advice.
+          <br></br>
+          What excites me most now is the opportunity to combine this technical knowledge with the soft 
+          skills I’ve developed throughout my life and apply them to real-world challenges that matter.
         </p>
       </section>
 

@@ -10,7 +10,7 @@ import F22Flyover from './assets/F22Flyover.jpg'
 import UXO from './assets/UXO.jpg'
 import SolarPanel from './assets/SolarPV.jpg'
 import troisDLogo from './assets/3Dsensormount.png'
-
+import NFCFigma1 from './assets/NFCfigma1.png'
 
 const sampleProjects = [
   {
@@ -82,6 +82,13 @@ const sampleProjects = [
     status: 'In Progress',
     description: 'Different 3D prints made for personal and professional uses.',
     thumbnail: troisDLogo,
+  },
+  {
+    id: 11,
+    title: 'NFC Memory Box',
+    status: 'In Progress',
+    description: 'A personalized memory box that uses an NFC tag to launch a web app displaying randomized photos, quotes, and videos.',
+    thumbnail: NFCFigma1,
   },
 ];
 
